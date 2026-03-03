@@ -27,6 +27,7 @@ public class ActionsClass {
 		//Enter Capital letter in search box and select that entered text.
 		action.moveToElement(driver.findElement(By.id("twotabsearchtextbox"))).click().keyDown(Keys.SHIFT).sendKeys("hello").doubleClick().build().perform();
 		System.out.println(driver.getTitle());
+		System.out.println("Test");
 
 	}
 
