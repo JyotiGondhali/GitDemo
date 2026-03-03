@@ -28,6 +28,9 @@ public class ActionsClass {
 		action.moveToElement(driver.findElement(By.id("twotabsearchtextbox"))).click().keyDown(Keys.SHIFT).sendKeys("hello").doubleClick().build().perform();
 		System.out.println(driver.getTitle());
 		System.out.println("Test");
+		System.out.println("Test");
+		System.out.println("Test");
+		System.out.println("Test");
 
 	}
 
